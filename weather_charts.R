@@ -1,4 +1,4 @@
-
+##test commit
 checkDataAvailabilityForDateRange("TXL", "1997-01-01", "2015-12-19",
                                   station_type = "airportCode")
 #### DOWNLOAD WEATHER DATA ####
