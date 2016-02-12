@@ -27,6 +27,10 @@ weatherTXL <- rbind(weatherTXL2014,
                     weatherTXL2011,
                     weatherTXL2010)
 
+### SAVE DATA FRAME weatherTXL ###
+save(weatherTXL, file = "weatherTXLfile.RData")
+load("weatherTXLfile.RData")
+
 ### CLEAN UP WEATHER DATA ###
 require(lubridate)
 weatherTXL$DayOfYear    <- yday(weatherTXL$Date)
